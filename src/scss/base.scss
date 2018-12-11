@@ -1,0 +1,30 @@
+@import "variables";
+
+// Media Query Mixin
+@mixin media-query ($breakpoint) {
+    @media (min-width: $breakpoint) {
+        @content;
+    }
+}
+
+// Base
+div {
+    box-sizing: border-box;
+}
+
+// Responsive containers
+.container {
+    display: flex;
+    flex-wrap: wrap;
+
+    @include media-query($small) {
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    &__column {
+        margin: 0;
+        width: 100%;
+    }
+}
+
