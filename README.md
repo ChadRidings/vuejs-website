@@ -1,5 +1,4 @@
-# webpack-vue-shop
-## A drag-and-drop shopping cart.
+# vuejs-website
 
 This is a demo website built using VueJS.
 
