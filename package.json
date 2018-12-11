@@ -1,10 +1,10 @@
 {
-  "name": "A VueJS Website",
+  "name": "vuejs-website",
   "version": "1.0.0",
-  "description": "A demo website built with VueJS by Chad Ridings",
+  "description": "A demo website using VueJS built by Chad Ridings",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/ChadRidings/vuejs-website.git"
+    "type": "git",
+    "url": "git+https://github.com/ChadRidings/vuejs-website.git"
   },
   "main": "index.js",
   "scripts": {
