@@ -1,7 +1,11 @@
 {
   "name": "cornerstone",
   "version": "1.0.0",
-  "description": "A demo website built by Chad Ridings",
+  "description": "A demo website built with VueJS by Chad Ridings",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/ChadRidings/vuejs-website.git"
+  }
   "main": "index.js",
   "scripts": {
     "dev": "webpack-dev-server --open --mode development",
